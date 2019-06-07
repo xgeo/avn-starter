@@ -1,27 +1,33 @@
-# Front
+# AVANADE STARTER
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
-## Development server
+[O que foi visto]
+- Básica estrutura aplicada.
+- Conhecimentos padrões para utilização do NPM
+- Entendendo como funciona linhas de comando
+- Instalação de pacotes globais
+- Utilização do Angular CLI
+- Decorators (Component / ngModule)
+- Criando conta no github
+- Controle de versão utilizando o git
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+[Para consulta e estudo]
+- Utilizar GUIA do Angular para criar a aplicação sugerida;
+- Criar um novo projeto (De preferência fora deste projeto)
+- Criar um repositório particular no GITHUB: https://github.com/
+- Utilizar seguinte guia: https://angular.io/start
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- RECOMENDA-SE LEITURA E ESCRITA DA APLICAÇÃO:
+- Considere o seguinte backlog:
+-- GETTING STARTED: (https://angular.io/start)
+--- Your First App
+--- Routing
+--- Managing Data 
+--- Forms
+--- Deployment
+--- Ao realizar commits e dar push para o repositório
+--- enviar por e-mail para g.lino.coutinho@avanade.com
+--- AJUDANTE PARA UTILIZAR O GIT: https://rogerdudler.github.io/git-guide/index.pt_BR.html
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
