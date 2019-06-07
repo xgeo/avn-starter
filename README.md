@@ -20,14 +20,14 @@
 
 - RECOMENDA-SE LEITURA E ESCRITA DA APLICAÇÃO:
 - Considere o seguinte backlog:
--- GETTING STARTED: (https://angular.io/start)
---- Your First App
---- Routing
---- Managing Data 
---- Forms
---- Deployment
---- Ao realizar commits e dar push para o repositório
---- enviar por e-mail para g.lino.coutinho@avanade.com
---- AJUDANTE PARA UTILIZAR O GIT: https://rogerdudler.github.io/git-guide/index.pt_BR.html
+- GETTING STARTED: (https://angular.io/start)
+- Your First App
+- Routing
+- Managing Data 
+- Forms
+- Deployment
+- Ao realizar commits e dar push para o repositório
+- enviar por e-mail para g.lino.coutinho@avanade.com
+- AJUDANTE PARA UTILIZAR O GIT: https://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 
