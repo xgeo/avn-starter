@@ -1,0 +1,8 @@
+node_modules/
+*.js
+**/*.js
+*.log
+*.map
+compiled/**
+package-lock.json
+.env
