@@ -1,6 +1,7 @@
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 const fs = require('fs');
+const cors = require('cors');
 
 export class Application {
     public app: express.Application;
@@ -19,6 +20,7 @@ export class Application {
     }
 
     private initializeMiddlewares() {
+        this.app.use(cors());
         this.app.use(bodyParser.json());
         this.app.use(express.urlencoded({ extended: false }));
     }

@@ -13,7 +13,11 @@ export class UserController extends BaseController {
     protected intializeRoutes() {
         this.router.post(this.path, (request: express.Request, response: express.Response, next: express.NextFunction) => this.store(request, response));
         this.router.post(`${this.path}/auth`, (request: express.Request, response: express.Response, next: express.NextFunction) => this.auth(request, response));
-        this.router.get(`${this.path}/info`, this.bearer.check, (request: express.Request, response: express.Response, next: express.NextFunction) => this.info(request, response));
+        this.router.get(`${this.path}/info`, 
+        this.bearer.check, 
+        (request: express.Request, 
+            response: express.Response, 
+            next: express.NextFunction) => this.info(request, response));
     }
 
     private async info(request: express.Request, response: express.Response) {
